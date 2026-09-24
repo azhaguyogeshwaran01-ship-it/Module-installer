@@ -1,0 +1,6 @@
+{
+  "name": "Module Inserter",
+  "description": "Advanced system module and tweak manager for rooted and non-rooted devices with system partition patches, theme overrides, and stability backups.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

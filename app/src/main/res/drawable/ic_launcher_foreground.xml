@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Glow / Shield Contour -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeAlpha="0.35"
+        android:pathData="M34,26h40c4.4,0 8,3.6 8,8v40c0,4.4 -3.6,8 -8,8H34c-4.4,0 -8,-3.6 -8,-8V34c0,-4.4 3.6,-8 8,-8z" />
+
+    <!-- Main Module Body -->
+    <path
+        android:pathData="M36,30h36c3.3,0 6,2.7 6,6v36c0,3.3 -2.7,6 -6,6H36c-3.3,0 -6,-2.7 -6,-6V36c0,-3.3 2.7,-6 6,-6z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="30"
+                android:endX="78"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0284C7" />
+                <item android:offset="0.5" android:color="#2563EB" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Chip Inset Core -->
+    <path
+        android:pathData="M42,36h24c2.2,0 4,1.8 4,4v28c0,2.2 -1.8,4 -4,4H42c-2.2,0 -4,-1.8 -4,-4V40c0,-2.2 1.8,-4 4,-4z"
+        android:fillColor="#0B1329" />
+
+    <!-- Connector Pins Top & Bottom -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M44,25h3v5h-3z M52.5,25h3v5h-3z M61,25h3v5h-3z M44,78h3v5h-3z M52.5,78h3v5h-3z M61,78h3v5h-3z" />
+
+    <!-- Connector Pins Left & Right -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M25,44h5v3h-5z M25,52.5h5v3h-5z M25,61h5v3h-5z M78,44h5v3h-5z M78,52.5h5v3h-5z M78,61h5v3h-5z" />
+
+    <!-- Core Terminal Inserter Glyph ">/" -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M47,48L53,54L47,60" />
+
+    <path
+        android:strokeColor="#A855F7"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M56,60h7" />
+
+    <!-- Accent Dot -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M63,44a2,2 0 1,0 0,-4a2,2 0 1,0 0,4z" />
+</vector>
